@@ -102,13 +102,13 @@ footer a:hover {
     color: #001400;
 }
 .home-title {
-    color: #001400;
+    color: #fcfbfb;
     font-size: 2em;
     margin-top: 10px;
     font-family: 'Gamja Flower', Helvetica, Arial;
 }
 h4 {
-    color: #001400;
+    color: #fcfbfb;
 }
 .msg h2 {
     color: #001400;
@@ -135,17 +135,17 @@ footer .social img {
     padding-top: 15px;
 }
 .rivers-card {
-    margin: 200px 0;
+    margin: 200px 200px;
     grid-column: 2/4;
     grid-row: 2/3;
 }
 .camping-card {
-    margin: 200px 0;
+    margin: 200px 200px;
     grid-column: 5/7;
     grid-row: 2/3;
 }
 .rapids-card {
-    margin: 200px 0;
+    margin: 200px 200px;
     grid-column: 8/10;
     grid-row: 2/3;
 }
@@ -193,6 +193,11 @@ nav {
 .card-img:hover {
     opacity: .6;
     transform: scale(1.1);
+}
+#hero-img {
+    align-self: center;
+    box-sizing: border-box;
+    width: 100%;
 }
 @media screen and (max-width: 900px) {
     #hero, .home-grid {

@@ -203,6 +203,25 @@ nav {
     display: grid;
      grid-template-columns: repeat(10, 1fr);
 }
+#river_txt  {
+    text-align: center;
+    color: #001400;
+    margin: 0px;
+
+}
+.canyon {
+    float: right;
+    padding: 5%;
+}
+.rivers-txt  {
+    text-align: justify;
+    margin: 5%;
+}
+#river_title h1 {
+    text-align: center;
+
+}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;

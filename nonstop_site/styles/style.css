@@ -92,6 +92,8 @@ body {
     grid-column: 2/3;
     text-align: center;
     padding: 5%;
+    max-width: 301px;
+    max-height: 330px;
 }
 .main_txt {
     font-family: "Englebert";

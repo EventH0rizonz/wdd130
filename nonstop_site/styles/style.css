@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Englebert&display=swap');
+
+#content {
+    max-width: 1800px;
+    margin: 0 auto;
+
+}
+nav a {
+    text-align: center;
+    text-decoration: none;
+    color: #001400;
+    padding: 35px;
+    font-size: x-large;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+header {
+    background-color: #2364AA;
+    font-family: "Carter One", Helvetica, Arial;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+.logo {
+    width: 100px;
+    height: 80px;
+    
+}
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+#hero_msg h1 {
+    text-align: center;
+    padding-top: 100px;
+    font-family: "Carter One";
+    font-size: 50px;
+}
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px;
+}
+#hero_box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+#hero_img {
+    align-self: center;
+    box-sizing: border-box;
+    width: 100%;
+}
+#hero_msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+}
+.button_box {
+    text-align: center;
+    padding-top: 50px;
+    font-family: "Englebert";
+}
+.buy {
+    background-color: #76DAE5;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #001400;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    
+}
+#background {
+    background-color: #33B3C1;
+}
+body {
+    background-color: #33B3C1;
+}
+.home_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.workout_img {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    text-align: center;
+}
+.drink_can_img {
+    grid-column: 2/3;
+    text-align: center;
+    padding: 5%;
+}
+.main_txt {
+    font-family: "Englebert";
+    text-align: center;
+    font-size: larger;
+    margin: 10%;
+}
+.sub_txt {
+    font-family: "Englebert";
+    text-align: center;
+    font-size: larger;
+    margin: 10%;
+}
+footer {
+    background-color: #2364AA;
+    text-decoration: none;
+    color: #001400;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Carter One";
+}
+footer p {
+    font-size: larger;
+    text-decoration: none;
+}

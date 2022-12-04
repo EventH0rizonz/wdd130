@@ -122,3 +122,41 @@ footer p {
     font-size: larger;
     text-decoration: none;
 }
+.flavors_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    padding-top: 130px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+}
+.Cherry_flavor p {
+    font-family: "Englebert";
+    font-size: x-large;
+}
+.lemon_flavor p {
+    font-family: "Englebert";
+    font-size: x-large;
+}
+.watermelon_flavor p {
+    font-family: "Englebert";
+    font-size: x-large;
+}
+.watermelon_flavor h1 {
+    font-family: "Carter One";
+}
+.lemon_flavor h1 {
+    font-family: "Carter One";
+}
+.Cherry_flavor h1 {
+    font-family: "Carter One";
+}
+.Cherry_flavor {
+    grid-column: 1/2;
+}
+.watermelon_flavor {
+    grid-column: 3/4;
+}
+.lemon_flavor  {
+    grid-column: 5/6;
+}
